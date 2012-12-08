@@ -17,6 +17,16 @@ module Hiroshimarb::Commands
 	puts(word)
     end
 
+
+# 広島弁に関する辞書の取得元 + ライセンス
+#
+# /***********************************************
+# なんでやねん v1.3 (c) Takanori,Sugita
+# MAIL:tomtak@leo.bekkoame.or.jp
+# URL :http://www2f.meshnet.or.jp/~takan/javac/
+# このクレジットを消さなければ使用は自由です。
+# ************************************************/
+
 $dictionary = {
 "もしかして"=>"ひょっとして",
 "なくちゃ"  =>  "なくては",
